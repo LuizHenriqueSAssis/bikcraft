@@ -10,6 +10,8 @@
 
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 
@@ -39,7 +41,7 @@
     </div>
 
     <div class="seguros container">
-      <div class="seguros-item">
+      <div class="seguros-item fadeIneft" data-anime="200">
         <h3 class="font-1-xl cor-6">PRATA</h3>
         <span class="font-1-xl cor-0">R$ 199 <Span class="font-1-xs cor-6">mensal</Span></span>
         <ul class="font-2-m cor-0">
@@ -50,7 +52,7 @@
         </ul>
         <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
-      <div class="seguros-item">
+      <div class="seguros-item fadeInRight" data-anime="400">
         <h3 class="font-1-xl cor-p1">OURO</h3>
         <span class="font-1-xl cor-0">R$ 299 <Span class="font-1-xs cor-6">mensal</Span></span>
         <ul class="font-2-m cor-0">
@@ -115,7 +117,7 @@
     <dl>
       <div>
         <dt><button class="font-1-m-b" aria-controls="pergunta1" aria-expanded="true">Qual forma de pagamento vocês aceitam?</button> </dt>
-        <dd id="pergunta1" class="font-2-s cor ativa" >Aceitamos cartões de crédito com a bandeira: Visa, Mastercard, Elo e American Express. Para pagamentos à vista também aceitamos Pix e Boleto através do PagSeguro.</dd>
+        <dd id="pergunta1" class="font-2-s cor ativa">Aceitamos cartões de crédito com a bandeira: Visa, Mastercard, Elo e American Express. Para pagamentos à vista também aceitamos Pix e Boleto através do PagSeguro.</dd>
       </div>
 
       <div>
@@ -178,6 +180,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
